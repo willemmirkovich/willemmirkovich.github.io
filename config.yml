@@ -2,4 +2,19 @@ baseURL: https://willemmirkovich.github.io
 languageCode: en-us
 title: Willem Mirkovich Blog
 theme: "PaperMod"
+
+params:
+
+    homeInfoParams:
+        Title: Welcome! 
+        Content: My name is Willem Mirkovich, and I am a Software Engineer. 
+          This is my personal site/blog, feel free to peruse and see what I 
+          am up to.
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/willemmirkovich"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/willem-mirkovich-48a417153/"
+
 publishDir: docs # location of output site
