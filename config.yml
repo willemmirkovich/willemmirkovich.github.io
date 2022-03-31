@@ -1,4 +1,5 @@
-baseURL: http://example.org/
+baseURL: https://willemmirkovich.github.io
 languageCode: en-us
-title: My New Hugo Site
+title: Willem Mirkovich Blog
 theme: "PaperMod"
+publishDir: docs # location of output site
