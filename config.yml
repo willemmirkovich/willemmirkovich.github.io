@@ -3,6 +3,31 @@ languageCode: en-us
 title: Willem Mirkovich Blog
 theme: "PaperMod"
 
+menu:
+  main:
+    - identifier: Resume
+      name: Resume 
+      url: /pdf/Resume.pdf 
+      weight: 20
+    - identifier: Archives
+      name: Archives
+      url: /archives/ 
+      weight: 20
+    - identifier: Tags
+      name: Tags
+      url: /tags/ 
+      weight: 20
+    - identifier: Search
+      name: Search
+      url: /search/ 
+      weight: 20
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
 params:
 
     homeInfoParams:
