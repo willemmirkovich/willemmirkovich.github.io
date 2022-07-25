@@ -41,5 +41,9 @@ params:
           url: "https://github.com/willemmirkovich"
         - name: linkedin
           url: "https://www.linkedin.com/in/willem-mirkovich-48a417153/"
+    
+    comments: true
 
 publishDir: docs # location of output site
+
+disqusShortname: yourDisqusShortname
