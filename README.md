@@ -4,20 +4,25 @@ My personal site!
 
 ## Development
 
+Run local development server
 ```bash
-# run dev server
 hugo server 
 ```
+
+Run local server with drafts
 ```bash
-# run dev server with drafts
+hugo server -D
 ```
 
 ## Instructions
 
 ### New Post
 
+```bash
+hugo new content/posts/[fill].md
+```
 
-### Deploy
+## Deploy
 
 1. `hugo --minify`
 
