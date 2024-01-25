@@ -2,6 +2,18 @@
 
 My personal site!
 
+## Requirements
+
+Need `hugo` package:
+```sh
+brew install hugo
+```
+
+On fresh clone of this repo, also need to get `PaperMod` submodule locally:
+```sh
+git submodule update --init --recursive
+```
+
 ## Development
 
 Run local development server

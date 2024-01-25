@@ -7,7 +7,7 @@ menu:
   main:
     - identifier: Resume
       name: Resume 
-      url: /pdf/Resume.pdf 
+      url: /pdf/resume.pdf
       weight: 20
     - identifier: Archives
       name: Archives
