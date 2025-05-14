@@ -1,16 +1,124 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Willem Mirkovich</title><link>https://willemmirkovich.github.io/</link><description>Recent content on Willem Mirkovich</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 14 Feb 2024 22:08:08 -0500</lastBuildDate><atom:link href="https://willemmirkovich.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Using `scp` with existing `ssh/config` file</title><link>https://willemmirkovich.github.io/posts/scp_config/</link><pubDate>Wed, 14 Feb 2024 22:08:08 -0500</pubDate><guid>https://willemmirkovich.github.io/posts/scp_config/</guid><description>Recently I have been needing to run various scripts/migrations on a VM. Connecting via ssh using my ~/.ssh/config file has been really nice, as I can keep my port mappings and identity in a single spot.
-One problem I ran into was needing to get the file contents from a tmux session standard output that I was able to get using tmux capture-pane. Since copy/paste isn&amp;rsquo;t configured the same on this VM as my local machine, I wanted to quickly copy the file over to my local and then get to copy/paste to my hearts content.</description></item><item><title>Rendering a Jupyter Notebook in Markdown for Static Site Generation</title><link>https://willemmirkovich.github.io/posts/render_notebook/</link><pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate><guid>https://willemmirkovich.github.io/posts/render_notebook/</guid><description>Spoiler Alert This was originally a jupyter notebook!
-While taking a recent Machine Learning course for my masters, I had the idea of how nice it would be if I did a cool notebook to be able to post it to my personal blog with almost no work involved.
-And, to my pleasant suprise, it was pretty simple! Here are the steps to get there:
-What you can render Code blocks // this is some javascript var x = 5; console.</description></item><item><title>Move to Neovim as my editor</title><link>https://willemmirkovich.github.io/posts/move-nvim/</link><pubDate>Thu, 25 Jan 2024 13:16:30 -0500</pubDate><guid>https://willemmirkovich.github.io/posts/move-nvim/</guid><description>My Full Setup I am maintaining my full development .config on github, so feel free to check it out: https://github.com/willemmirkovich/.config
-Intro After experimenting with it for many months throughout 2023, I have finally moved almost all of my professional/personal development to neovim.
-When I initially started out with neovim, I initially set things up with an out of the box setup provided by another developer. While this was helpful at first, it was based on what they needed for development, not myself.</description></item><item><title>My presentation @ Earthcube 2022</title><link>https://willemmirkovich.github.io/posts/earthcube-2022/</link><pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate><guid>https://willemmirkovich.github.io/posts/earthcube-2022/</guid><description>AMGeO 2.0: Crafting an API for Geospace Data Scientists While working on the workshop we (AMGeO) hosted in collaboration with Earthcube, I submitted a notebook building off of the workshop materials and submitted it to Earthcube&amp;rsquo;s 2022 conference. This notebook was accepted and published alongside other notebooks presented at the conference.
-Publication Willem Mirkovich, Tomoko Matsuo, Liam Kilcommons. (2022). AMGeO 2.0: Crafting an API for Geospace Data Scientists (ec2022v2). Zenodo. https://doi.</description></item><item><title>AMGeO Earthcube Workshop 2022</title><link>https://willemmirkovich.github.io/posts/amgeo-workshop/</link><pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate><guid>https://willemmirkovich.github.io/posts/amgeo-workshop/</guid><description>In coordination with Earthcube, the AMGeO team hosted a workshop in May 2022 to expose current/new AMGeO users to new functionality introduced, as well as applications of AMGeO data with other geospace tools.
-I led workshop in addition to other AMGeO team members: Liam Kilcommons, Tomoko Matsuo and Akash Ratheesh. We had support from Nicholas Bartel, and Earthcube team members.
-Pre-workshop Before the workshop, I put together materials for attendees to refresh/learn about Python and specific packages used by AMGeO (Xarray, Cartopy, &amp;hellip;)</description></item><item><title>Vscode Jupyter Vim Keymap</title><link>https://willemmirkovich.github.io/posts/vscode-jupyter-vim-keymap/</link><pubDate>Wed, 30 Mar 2022 21:09:43 -0600</pubDate><guid>https://willemmirkovich.github.io/posts/vscode-jupyter-vim-keymap/</guid><description>As of late, I have really enjoyed using Jupyter Notebooks for my exploratory programming and data science. While immenesly user friendly in the browser, I have missed some of the following functionality I have come to use in my VSCode IDE:
-auto-complete syntax highlighting import warnings/missing package info For this reason, I have moved all of my jupyter development to VS Code&amp;rsquo;s Jupyter Environment. This extension comes baked with all the IDE utiliies I am accustomed to&amp;hellip;</description></item><item><title>My presentation @ AGU 2021</title><link>https://willemmirkovich.github.io/posts/agu-2021/</link><pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate><guid>https://willemmirkovich.github.io/posts/agu-2021/</guid><description>Predictive Models of Ionospheric Convection Patterns During Substorms Related to STEVE While working as a Professional Research Assistant, I continued my Machine Learning work and applied some of the things I learned during my AGU 2020 presentation to work I completed with Tomoko Matsuo and Valerie Svaldi.
-Presentation All of the work I did for this presentation, in addition to links to my recorded talk and slides can be found in the following repository: AGU-2021</description></item><item><title>AMGeO Workshop 2021 @ CEDAR</title><link>https://willemmirkovich.github.io/posts/cedar-workshop/</link><pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate><guid>https://willemmirkovich.github.io/posts/cedar-workshop/</guid><description>During the CEDAR 2021 conference, AMGeO led a workhop. This workhop taught AMGeO users how to use AMGeO interactively on the Jupyter notebook environment via a web browser for different use case scenarios
-I led workshop in addition to other AMGeO team members: Liam Kilcommons, Tomoko Matsuo. We had support from Nicholas Bartel, Jason Li.
-Special thanks to Andrew Monaghan, who gave us support for running an AWS instance during the workshop.</description></item><item><title>My presentation @ AGU 2020</title><link>https://willemmirkovich.github.io/posts/agu-2020/</link><pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate><guid>https://willemmirkovich.github.io/posts/agu-2020/</guid><description>Data-Driven Modeling of Polar Ionospheric Electrodynamics Using Convolutional Neural Networks After my graduation in 2020, I presented some of the work I did while working with Tomoko Matsuo my senior year.
-Poster AGU 2021 Poster
-Abstract Polar ionospheric electrodynamics are an integral part of understanding the Sun to Earth connection. Fusing data from multiple measurement sources and creating more accurate, consistent, and complete descriptions of electrodynamics for research in this area is incredibly important, yet a classically difficult task.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Willem Mirkovich</title><link>https://willemmirkovich.github.io/</link><description>Recent content on Willem Mirkovich</description><generator>Hugo -- 0.147.3</generator><language>en-us</language><lastBuildDate>Wed, 14 Feb 2024 22:08:08 -0500</lastBuildDate><atom:link href="https://willemmirkovich.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Using `scp` with existing `ssh/config` file</title><link>https://willemmirkovich.github.io/posts/scp_config/</link><pubDate>Wed, 14 Feb 2024 22:08:08 -0500</pubDate><guid>https://willemmirkovich.github.io/posts/scp_config/</guid><description>&lt;p>Recently I have been needing to run various scripts/migrations on
+a VM. Connecting via &lt;code>ssh&lt;/code> using my &lt;code>~/.ssh/config&lt;/code> file has been
+really nice, as I can keep my port mappings and identity in a single spot.&lt;/p>
+&lt;p>One problem I ran into was needing to get the file contents from a tmux session
+standard output that I was able to get using &lt;code>tmux capture-pane&lt;/code>. Since copy/paste
+isn&amp;rsquo;t configured the same on this VM as my local machine, I wanted to quickly
+copy the file over to my local and then get to copy/paste to my hearts content. But,
+who wants to fill out the not fun host information in the &lt;code>scp&lt;/code> command.&lt;/p></description></item><item><title>Rendering a Jupyter Notebook in Markdown for Static Site Generation</title><link>https://willemmirkovich.github.io/posts/render_notebook/</link><pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate><guid>https://willemmirkovich.github.io/posts/render_notebook/</guid><description>&lt;p>&lt;strong>Spoiler Alert&lt;/strong> This was originally a jupyter notebook!&lt;/p>
+&lt;p>While taking a recent Machine Learning course for my masters, I had
+the idea of how nice it would be if I did a cool notebook to be able
+to post it to my personal blog with almost no work involved.&lt;/p>
+&lt;p>And, to my pleasant suprise, it was pretty simple! Here are the steps to get there:&lt;/p>
+&lt;h2 id="what-you-can-render">What you can render&lt;/h2>
+&lt;h3 id="code-blocks">Code blocks&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// this is some javascript
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">x&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">5&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">console&lt;/span>.&lt;span style="color:#a6e22e">log&lt;/span>(&lt;span style="color:#a6e22e">x&lt;/span>);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># now some python&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">for&lt;/span> el &lt;span style="color:#f92672">in&lt;/span> l:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> print(el)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="run-actual-code-with-outputs">Run actual code with outputs&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> numpy &lt;span style="color:#66d9ef">as&lt;/span> np
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>x &lt;span style="color:#f92672">=&lt;/span> np&lt;span style="color:#f92672">.&lt;/span>array([
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> [&lt;span style="color:#ae81ff">1&lt;/span>, &lt;span style="color:#ae81ff">2&lt;/span>, &lt;span style="color:#ae81ff">3&lt;/span>],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> [&lt;span style="color:#ae81ff">4&lt;/span>, &lt;span style="color:#ae81ff">5&lt;/span>, &lt;span style="color:#ae81ff">6&lt;/span>],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> [&lt;span style="color:#ae81ff">7&lt;/span>, &lt;span style="color:#ae81ff">8&lt;/span>, &lt;span style="color:#ae81ff">9&lt;/span>],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>])
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>x
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>array([[1, 2, 3],
+[4, 5, 6],
+[7, 8, 9]])
+&lt;/code>&lt;/pre>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> pandas &lt;span style="color:#66d9ef">as&lt;/span> pd
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># NOTE: need to set this option, or table renders&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># come out wonky when coverting to markdown&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pd&lt;span style="color:#f92672">.&lt;/span>set_option(&lt;span style="color:#e6db74">&amp;#39;display.notebook_repr_html&amp;#39;&lt;/span>, &lt;span style="color:#66d9ef">False&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>rows &lt;span style="color:#f92672">=&lt;/span> [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#39;column_1&amp;#39;&lt;/span>: &lt;span style="color:#ae81ff">1&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#39;column_2&amp;#39;&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;yippee&amp;#39;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#39;column_3&amp;#39;&lt;/span>: {&lt;span style="color:#e6db74">&amp;#39;test&amp;#39;&lt;/span>: &lt;span style="color:#ae81ff">10&lt;/span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#39;column_1&amp;#39;&lt;/span>: &lt;span style="color:#ae81ff">2&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#39;column_2&amp;#39;&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;nope&amp;#39;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#39;column_3&amp;#39;&lt;/span>: {&lt;span style="color:#e6db74">&amp;#39;working?&amp;#39;&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;maybe...&amp;#39;&lt;/span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>df &lt;span style="color:#f92672">=&lt;/span> pd&lt;span style="color:#f92672">.&lt;/span>DataFrame(rows)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>df
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code> column_1 column_2 column_3
+0 1 yippee {'test': 10}
+1 2 nope {'working?': 'maybe...'}
+&lt;/code>&lt;/pre>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> matplotlib.pyplot &lt;span style="color:#66d9ef">as&lt;/span> plt
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>fig, ax &lt;span style="color:#f92672">=&lt;/span> plt&lt;span style="color:#f92672">.&lt;/span>subplots()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>x &lt;span style="color:#f92672">=&lt;/span> np&lt;span style="color:#f92672">.&lt;/span>array([&lt;span style="color:#ae81ff">1&lt;/span>, &lt;span style="color:#ae81ff">2&lt;/span>, &lt;span style="color:#ae81ff">3&lt;/span>, &lt;span style="color:#ae81ff">4&lt;/span>, &lt;span style="color:#ae81ff">5&lt;/span>, &lt;span style="color:#ae81ff">6&lt;/span>, &lt;span style="color:#ae81ff">7&lt;/span>, &lt;span style="color:#ae81ff">8&lt;/span>, &lt;span style="color:#ae81ff">9&lt;/span>, &lt;span style="color:#ae81ff">10&lt;/span>])
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>y &lt;span style="color:#f92672">=&lt;/span> x &lt;span style="color:#f92672">**&lt;/span> &lt;span style="color:#ae81ff">2&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ax&lt;span style="color:#f92672">.&lt;/span>plot(x, y, color&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#39;green&amp;#39;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ax&lt;span style="color:#f92672">.&lt;/span>set_title(&lt;span style="color:#e6db74">&amp;#39;my plot&amp;#39;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">None&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img alt="png" loading="lazy" src="https://willemmirkovich.github.io/render_notebook_files/render_notebook_4_0.png">&lt;/p></description></item><item><title>Move to Neovim as my editor</title><link>https://willemmirkovich.github.io/posts/move-nvim/</link><pubDate>Thu, 25 Jan 2024 13:16:30 -0500</pubDate><guid>https://willemmirkovich.github.io/posts/move-nvim/</guid><description>&lt;h2 id="my-full-setup">My Full Setup&lt;/h2>
+&lt;p>I am maintaining my full development &lt;code>.config&lt;/code> on github, so feel free to check it out:
+&lt;a href="https://github.com/willemmirkovich/.config">https://github.com/willemmirkovich/.config&lt;/a>&lt;/p>
+&lt;h2 id="intro">Intro&lt;/h2>
+&lt;p>After experimenting with it for many months throughout 2023,
+I have finally moved almost all of my professional/personal
+development to &lt;a href="https://neovim.io/">neovim&lt;/a>.&lt;/p>
+&lt;p>When I initially started out with neovim, I initially set things
+up with an out of the box setup provided by another developer.
+While this was helpful at first, it was based on what they needed
+for development, not myself. So many plugins that I was configuring
+either didn&amp;rsquo;t make a ton of sense to me at first or were a bit overkill.
+This led me to not really learning how the &lt;code>init.lua&lt;/code> file was set, or
+being bogged down by the shear weight of the setup.&lt;/p></description></item><item><title>My presentation @ Earthcube 2022</title><link>https://willemmirkovich.github.io/posts/earthcube-2022/</link><pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate><guid>https://willemmirkovich.github.io/posts/earthcube-2022/</guid><description>&lt;h1 id="amgeo-20-crafting-an-api-for-geospace-data-scientists">AMGeO 2.0: Crafting an API for Geospace Data Scientists&lt;/h1>
+&lt;p>&lt;img alt="Earthcube Logo" loading="lazy" src="https://willemmirkovich.github.io/img/earthcube-logo.png">&lt;/p>
+&lt;p>While working on the workshop we (AMGeO) hosted in collaboration with Earthcube, I submitted a notebook
+building off of the workshop materials and submitted it to Earthcube&amp;rsquo;s 2022 conference.
+This notebook was accepted and published alongside other notebooks presented at the conference.&lt;/p>
+&lt;h2 id="publication">Publication&lt;/h2>
+&lt;p>Willem Mirkovich, Tomoko Matsuo, Liam Kilcommons. (2022). AMGeO 2.0: Crafting an API for Geospace Data
+Scientists (ec2022v2). Zenodo. &lt;a href="https://doi.org/10.5281/zenodo.6780968">https://doi.org/10.5281/zenodo.6780968&lt;/a>&lt;/p></description></item><item><title>AMGeO Earthcube Workshop 2022</title><link>https://willemmirkovich.github.io/posts/amgeo-workshop/</link><pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate><guid>https://willemmirkovich.github.io/posts/amgeo-workshop/</guid><description>&lt;p>&lt;img alt="AMGeO Logo" loading="lazy" src="https://willemmirkovich.github.io/img/amgeo-logo.svg">&lt;/p>
+&lt;p>In coordination with Earthcube, the AMGeO team hosted a workshop in May 2022 to
+expose current/new AMGeO users to new functionality introduced, as well as applications
+of AMGeO data with other geospace tools.&lt;/p>
+&lt;p>I led workshop in addition to other AMGeO team members: Liam Kilcommons, Tomoko Matsuo and Akash Ratheesh.
+We had support from Nicholas Bartel, and Earthcube team members.&lt;/p>
+&lt;h2 id="pre-workshop">Pre-workshop&lt;/h2>
+&lt;p>Before the workshop, I put together materials for attendees to refresh/learn about Python and
+specific packages used by AMGeO (Xarray, Cartopy, &amp;hellip;)&lt;/p></description></item><item><title>Vscode Jupyter Vim Keymap</title><link>https://willemmirkovich.github.io/posts/vscode-jupyter-vim-keymap/</link><pubDate>Wed, 30 Mar 2022 21:09:43 -0600</pubDate><guid>https://willemmirkovich.github.io/posts/vscode-jupyter-vim-keymap/</guid><description>&lt;p>As of late, I have really enjoyed using &lt;a href="https://jupyter.org/">Jupyter Notebooks&lt;/a>
+for my exploratory programming and data science. While immenesly user friendly in the browser, I have missed some of the following functionality I have come to use in my VSCode IDE:&lt;/p>
+&lt;ul>
+&lt;li>auto-complete&lt;/li>
+&lt;li>syntax highlighting&lt;/li>
+&lt;li>import warnings/missing package info&lt;/li>
+&lt;/ul>
+&lt;p>For this reason, I have moved all of my jupyter development to
+&lt;a href="https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter">VS Code&amp;rsquo;s Jupyter Environment&lt;/a>.
+This extension comes baked with all the IDE utiliies I am
+accustomed to&amp;hellip;&lt;/p></description></item><item><title>My presentation @ AGU 2021</title><link>https://willemmirkovich.github.io/posts/agu-2021/</link><pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate><guid>https://willemmirkovich.github.io/posts/agu-2021/</guid><description>&lt;h1 id="predictive-models-of-ionospheric-convection-patterns-during-substorms-related-to-steve">Predictive Models of Ionospheric Convection Patterns During Substorms Related to STEVE&lt;/h1>
+&lt;p>&lt;img alt="AGU Logo" loading="lazy" src="https://willemmirkovich.github.io/img/agu-logo.png">&lt;/p>
+&lt;p>While working as a Professional Research Assistant, I continued my Machine Learning work
+and applied some of the things I learned during my AGU 2020 presentation to work I completed with
+Tomoko Matsuo and Valerie Svaldi.&lt;/p>
+&lt;h2 id="presentation">Presentation&lt;/h2>
+&lt;p>All of the work I did for this presentation, in addition to links to my recorded talk and slides
+can be found in the following repository: &lt;a href="https://github.com/willemmirkovich/AGU-2021">AGU-2021&lt;/a>&lt;/p></description></item><item><title>AMGeO Workshop 2021 @ CEDAR</title><link>https://willemmirkovich.github.io/posts/cedar-workshop/</link><pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate><guid>https://willemmirkovich.github.io/posts/cedar-workshop/</guid><description>&lt;p>&lt;img alt="AMGeO Logo" loading="lazy" src="https://willemmirkovich.github.io/img/amgeo-logo.svg">&lt;/p>
+&lt;p>During the CEDAR 2021 conference, AMGeO led a workhop. This workhop taught AMGeO users how to use AMGeO
+interactively on the Jupyter notebook environment via a web browser for different use case scenarios&lt;/p>
+&lt;p>I led workshop in addition to other AMGeO team members: Liam Kilcommons, Tomoko Matsuo.
+We had support from Nicholas Bartel, Jason Li.&lt;/p>
+&lt;p>Special thanks to Andrew Monaghan, who gave us support for running an AWS instance during the workshop.&lt;/p></description></item><item><title>My presentation @ AGU 2020</title><link>https://willemmirkovich.github.io/posts/agu-2020/</link><pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate><guid>https://willemmirkovich.github.io/posts/agu-2020/</guid><description>&lt;h1 id="data-driven-modeling-of-polar-ionospheric-electrodynamics-using-convolutional-neural-networks">Data-Driven Modeling of Polar Ionospheric Electrodynamics Using Convolutional Neural Networks&lt;/h1>
+&lt;p>&lt;img alt="AGU Logo" loading="lazy" src="https://willemmirkovich.github.io/img/agu-logo.png">&lt;/p>
+&lt;p>After my graduation in 2020, I presented some of the work I did while working with Tomoko Matsuo my senior year.&lt;/p>
+&lt;h2 id="poster">Poster&lt;/h2>
+&lt;p>&lt;a href="https://agu2020fallmeeting-agu.ipostersessions.com/Default.aspx?s=F7-22-9F-31-68-48-3B-97-09-C7-96-B3-96-D3-58-31#stay">AGU 2021 Poster&lt;/a>&lt;/p>
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Polar ionospheric electrodynamics are an integral part of understanding the Sun to Earth connection. Fusing data from multiple measurement sources and creating more accurate, consistent, and complete descriptions of electrodynamics for research in this area is incredibly important, yet a classically difficult task. One of the main issues is the constantly changing state of the ionospheric electrodynamics. The recently developed AMGeO (Assimilative Mapping of Geospace Observations) open-source software utilizes a Bayesian inferential framework to solve the spatial prediction problem posed by the need to fill the gaps left in sparsely and irregularly sampled data. AMGeO offers a robust approximation to this inferential problem and produces snapshot maps of polar ionospheric electrodynamics states.&lt;/p></description></item></channel></rss>
