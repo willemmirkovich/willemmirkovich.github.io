@@ -31,7 +31,7 @@ hugo server -D
 ### New Post
 
 ```bash
-hugo new content/posts/[fill].md
+hugo new content/posts/[fill].md --themesDir ./themes
 ```
 
 ## Deploy

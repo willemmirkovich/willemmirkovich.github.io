@@ -3,6 +3,10 @@ languageCode: en-us
 title: Willem Mirkovich
 theme: "PaperMod"
 
+taxonomies:
+  category: categories
+  tag: tags
+
 menu:
   main:
     - identifier: Resume
