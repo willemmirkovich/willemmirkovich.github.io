@@ -14,15 +14,15 @@ tags:
 ---
 
 One of the more exciting capabilities to come out of the AI craze of 2025
-are [Model Context Protocol](https://en.wikipedia.org/wiki/Model_Context_Protocol),
+is [Model Context Protocol](https://en.wikipedia.org/wiki/Model_Context_Protocol),
 a standardized way for LLM models to interact with software tools, such as filesystems,
 databases or HTTP servers.
 
-While getting MCP servers setup and configured with things like `Claude` and `Copilot` via `VSCode` is possible, I ultimately found this clunky, and also not condusive to sharing across teams or organizations.
+While getting MCP servers setup and configured with things like `Claude` and `Copilot` via `VSCode` is possible, I ultimately found this clunky, and not condusive to sharing across teams or organizations.
 
 Enter [mcp-use](https://mcp-use.com/), a cool new tool that does the heavy lifting of standardizing how you can hook up multiple MCP servers with a given LLM model to create an AI Agent that can be deployed and utilized.
 
-This blog post showcases how easy it is to setup a simple MCP tool wrapped around a `FastAPI` server, and connect it to a locally running LLM.
+This blog post showcases how easy it is to set up a simple MCP tool wrapped around a `FastAPI` server, and connect it to a locally running LLM.
 
 ## Scenario
 
