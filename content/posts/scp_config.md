@@ -1,7 +1,12 @@
 ---
-title: "Using `scp` with existing `ssh/config` file"
+title: "Using scp with existing ssh/config file"
 date: 2024-02-14T22:08:08-05:00
 draft: false
+categories:
+    - tutorial
+tags:
+    - bash
+    - scp
 ---
 
 Recently I have been needing to run various scripts/migrations on
